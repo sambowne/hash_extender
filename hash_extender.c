@@ -293,7 +293,7 @@ int main(int argc, char *argv[])
   program = argv[0];
 
   opterr = 0;
-  while((c = getopt_long_only(argc, argv, "", long_options, &option_index)) != EOF)
+  while((c = getopt_long_only(argc, argv, "", long_options, &option_index)) != 255)
   {
     switch(c)
     {
